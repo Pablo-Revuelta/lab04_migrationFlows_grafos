@@ -1,0 +1,15 @@
+Create a new environment for migration flows to the EU project
+
+conda create --name migration_flows
+
+conda install -c anaconda pandas
+
+conda install -c anaconda numpy
+
+conda install -c conda-forge jupyterlab
+
+Create a Kernel
+
+conda install ipykernel
+
+python -m ipykernel install --user --name migration_flows --display-name "migration_flows"
